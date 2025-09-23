@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<div><strong>Product Name</strong></div>
+<div class="muted">Code: <span>SKU-0003</span> • Origin: NZ</div>
+</figcaption>
+</figure>
+<figure class="prod">
+<img src="/images/products/product-04.jpg" alt="Product name" />
+<figcaption>
+<div><strong>Product Name</strong></div>
+<div class="muted">Code: <span>SKU-0004</span> • Origin: NZ</div>
+</figcaption>
+</figure>
+</div>
+
+
+<div class="card" style="margin-top:16px">
+<strong>Bulk SKU Upload (optional)</strong>
+<p class="muted">If you have a CSV or spreadsheet of product codes, you can embed a link to it here, or list items in a table.</p>
+<div class="grid cols-3">
+<div class="stack">
+<span class="muted">Example</span>
+<div>Manuka Honey MGO 100+</div>
+<div class="muted">Code: HNY-MGO100</div>
+</div>
+<div class="stack">
+<span class="muted">Example</span>
+<div>Whole Milk Powder 26%</div>
+<div class="muted">Code: DYR-WMP26</div>
+</div>
+<div class="stack">
+<span class="muted">Example</span>
+<div>Blackcurrant Extract 35%</div>
+<div class="muted">Code: NUT-BLK35</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- Services -->
+<section id="services" class="section">
+<h2>Services</h2>
+<div class="grid cols-3">
+<div class="card stack"><strong>Sourcing & Vendor Vetting</strong><span class="muted">Identify, verify, and onboard certified NZ suppliers.</span></div>
+<div class="card stack"><strong>Private Label / OEM</strong><span class="muted">Formulation, packaging, and label compliance for target markets.</span></div>
+<div class="card stack"><strong>Logistics & Documents</strong><span class="muted">Incoterms, export docs (CoO, MSDS, MPI), and customs support.</span></div>
+</div>
+</section>
+
+
+<!-- Contact -->
+<section id="contact" class="section">
+<h2>Contact</h2>
+<div class="grid cols-2">
+<div class="card stack">
+<div><strong>Enquiries</strong></div>
+<div class="muted">Email: sales@jmargos.com • Phone: +852 0000 0000</div>
+<div class="muted">Address: Room XXX, XXXX Building, Hong Kong</div>
+</div>
+<div class="card stack">
+<div><strong>Request a Quote</strong></div>
+<div class="muted">Tell us the SKU codes, quantities, destination port, and preferred Incoterms.</div>
+<a class="btn" href="mailto:sales@jmargos.com?subject=RFQ%20-%20JM%20Argos">Email RFQ</a>
+</div>
+</div>
+</section>
+
+
+<footer>
+© <span id="year"></span> JM Argos (Hong Kong) Limited • All rights reserved
+</footer>
+</div>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
