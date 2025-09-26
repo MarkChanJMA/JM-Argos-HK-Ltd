@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JM Argos (Hong Kong) Limited</title>
+  <style>
+    :root { --bg:#0b1220; --fg:#e8eefc; --muted:#a8b3cf; --brand:#65a30d; --card:#131a2a; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#0b1220 0%,#0e1630 100%);color:var(--fg)}
+    a{color:var(--fg);text-decoration:none}
+    .container{max-width:1120px;margin:0 auto;padding:24px}
+    header{display:flex;gap:16px;align-items:center;padding:16px 0}
+    header img{height:56px;width:auto;border-radius:12px;background:#fff;padding:6px}
+    .hero{display:grid;grid-template-columns:1.1fr 0.9fr;gap:28px;align-items:center;padding:42px 0}
+    .badge{display:inline-block;background:rgba(101,163,13,.15);color:#e6ffb2;padding:6px 10px;border-radius:999px;border:1px solid rgba(101,163,13,.35);font-size:12px;letter-spacing:.2px}
+    h1{font-size:44px;line-height:1.1;margin:14px 0 8px}
+    p.lead{font-size:18px;color:var(--muted);max-width:60ch}
+    .card{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:18px;padding:18px}
+    .grid{display:grid;gap:16px}
+    .grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .grid.cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+    .grid.cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .btn{display:inline-flex;align-items:center;gap:10px;background:var(--brand);color:#0a0f1d;border:none;border-radius:12px;padding:12px 16px;font-weight:600}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,.18);color:var(--fg)}
+    .section{padding:28px 0}
+    .section h2{font-size:28px;margin:0 0 12px}
+    figure.prod{border-radius:14px;overflow:hidden;background:#0c1426;border:1px solid rgba(255,255,255,.06)}
+    figure.prod img{width:100%;height:180px;object-fit:cover;display:block;background:#101a30}
+    figure.prod figcaption{padding:12px 14px}
+    .muted{color:var(--muted)}
+    footer{padding:32px 0;color:var(--muted);border-top:1px solid rgba(255,255,255,.06);margin-top:32px}
+    .pill{display:inline-block;padding:4px 10px;border:1px solid rgba(255,255,255,.14);border-radius:999px;font-size:12px;color:var(--muted)}
+    .stack{display:flex;flex-direction:column;gap:10px}
+    .row{display:flex;gap:10px;flex-wrap:wrap}
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .grid.cols-3,.grid.cols-4{grid-template-columns:1fr 1fr}
+    }
+    @media (max-width:640px){
+      header{flex-direction:column;align-items:flex-start}
+      .grid.cols-3,.grid.cols-4{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header / Logo -->
+    <header>
+      <!-- REPLACE src with your logo path -->
+      <img src="logo-placeholder.png" alt="JM Argos Logo" />
+      <div>
+        <div class="pill">Hong Kong • New Zealand Sourcing</div>
+        <strong>JM Argos (Hong Kong) Limited</strong><br/>
+        <span class="muted">Trusted sourcing & export of New Zealand products</span>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div>
+        <span class="badge">Established 2023 · 2 years strong</span>
+        <h1>Your bridge to premium New&nbsp;Zealand products</h1>
+        <p class="lead">We help retailers and distributors in Asia access authentic, compliant, and competitively priced products from New Zealand—managed end‑to‑end from supplier selection and QA to shipment and delivery.</p>
+        <div class="row" style="margin-top:14px">
+          <a class="btn" href="#contact">Request a quote</a>
+          <a class="btn ghost" href="#products">Browse products</a>
+        </div>
+      </div>
+      <div class="card stack">
+        <div class="row">
+          <div class="pill">MPI compliant</div>
+          <div class="pill">Export docs handled</div>
+          <div class="pill">Multi‑SKU consolidation</div>
+        </div>
+        <div class="stack">
+          <div><strong>What we do</strong></div>
+          <div class="muted">Sourcing • Private label • OEM • Quality control • Logistics • Customs documentation</div>
+        </div>
+        <div class="stack">
+          <div><strong>Coverage</strong></div>
+          <div class="muted">Dairy, beverages, health & wellness, packaged foods, and more from New Zealand suppliers.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <h2>About JM Argos</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <p>Founded in <strong>2023</strong>, JM Argos (Hong Kong) Limited is a trading and export partner connecting Asia‑Pacific buyers with <strong>genuine New Zealand products</strong>. In just <strong>two years</strong> we’ve built a reliable supplier network and streamlined processes that keep costs low and quality high.</p>
+          <p class="muted">We operate with transparent pricing, supplier due diligence, and milestone‑based updates across every shipment.</p>
+        </div>
+        <div class="card stack">
+          <div><strong>Highlights</strong></div>
+          <ul class="muted" style="margin:0 0 0 18px">
+            <li>Direct access to vetted NZ manufacturers</li>
+            <li>Batch‑level QC and product traceability</li>
+            <li>Consolidated shipments and flexible MOQs</li>
+            <li>End‑to‑end export documentation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="section">
+      <h2>Products</h2>
+      <p class="muted">Replace images & captions below with your actual SKUs. Use the <strong>Code</strong> field for your internal product codes.</p>
+      <div class="grid cols-4">
+        <!-- PRODUCT CARD TEMPLATE: Duplicate and update -->
+        <figure class="prod">
+          <!-- Replace src with product image path -->
+          <img src="/images/products/product-01.jpg" alt="Product name" />
+          <figcaption>
+            <div><strong>Product Name</strong></div>
+            <div class="muted">Code: <span>SKU-0001</span> • Origin: NZ</div>
+          </figcaption>
+        </figure>
+        <figure class="prod">
+          <img src="/images/products/product-02.jpg" alt="Product name" />
+          <figcaption>
+            <div><strong>Product Name</strong></div>
+            <div class="muted">Code: <span>SKU-0002</span> • Origin: NZ</div>
+          </figcaption>
+        </figure>
+        <figure class="prod">
+          <img src="/images/products/product-03.jpg" alt="Product name" />
+          <figcaption>
+            <div><strong>Product Name</strong></div>
+            <div class="muted">Code: <span>SKU-0003</span> • Origin: NZ</div>
+          </figcaption>
+        </figure>
+        <figure class="prod">
+          <img src="/images/products/product-04.jpg" alt="Product name" />
+          <figcaption>
+            <div><strong>Product Name</strong></div>
+            <div class="muted">Code: <span>SKU-0004</span> • Origin: NZ</div>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="card" style="margin-top:16px">
+        <strong>Bulk SKU Upload (optional)</strong>
+        <p class="muted">If you have a CSV or spreadsheet of product codes, you can embed a link to it here, or list items in a table.</p>
+        <div class="grid cols-3">
+          <div class="stack">
+            <span class="muted">Example</span>
+            <div>Manuka Honey MGO 100+</div>
+            <div class="muted">Code: HNY-MGO100</div>
+          </div>
+          <div class="stack">
+            <span class="muted">Example</span>
+            <div>Whole Milk Powder 26%</div>
+            <div class="muted">Code: DYR-WMP26</div>
+          </div>
+          <div class="stack">
+            <span class="muted">Example</span>
+            <div>Blackcurrant Extract 35%</div>
+            <div class="muted">Code: NUT-BLK35</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <h2>Services</h2>
+      <div class="grid cols-3">
+        <div class="card stack"><strong>Sourcing & Vendor Vetting</strong><span class="muted">Identify, verify, and onboard certified NZ suppliers.</span></div>
+        <div class="card stack"><strong>Private Label / OEM</strong><span class="muted">Formulation, packaging, and label compliance for target markets.</span></div>
+        <div class="card stack"><strong>Logistics & Documents</strong><span class="muted">Incoterms, export docs (CoO, MSDS, MPI), and customs support.</span></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="grid cols-2">
+        <div class="card stack">
+          <div><strong>Enquiries</strong></div>
+          <div class="muted">Email: sales@jmargos.com • Phone: +852 0000 0000</div>
+          <div class="muted">Address: Room XXX, XXXX Building, Hong Kong</div>
+        </div>
+        <div class="card stack">
+          <div><strong>Request a Quote</strong></div>
+          <div class="muted">Tell us the SKU codes, quantities, destination port, and preferred Incoterms.</div>
+          <a class="btn" href="mailto:sales@jmargos.com?subject=RFQ%20-%20JM%20Argos">Email RFQ</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> JM Argos (Hong Kong) Limited • All rights reserved
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
